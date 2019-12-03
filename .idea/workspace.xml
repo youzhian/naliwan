@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f07310ea-b020-48b4-879d-b010679923ed" name="Default Changelist" comment="" />
+    <list default="true" id="f07310ea-b020-48b4-879d-b010679923ed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan-client/naliwanclient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-client/naliwanclient.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan-eureka/src/main/java/com/eureka/EurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-eureka/src/main/java/com/eureka/EurekaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan-service-api/naliwanserviceapi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service-api/naliwanserviceapi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan-service-api/src/main/java/com/wofang/naliwan/model/usi/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service-api/src/main/java/com/wofang/naliwan/model/usi/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan-service-api/src/main/java/com/wofang/naliwan/service/usi/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service-api/src/main/java/com/wofang/naliwan/service/usi/UserInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan-service/src/main/java/com/wofang/naliwan/ServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service/src/main/java/com/wofang/naliwan/ServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan-service/src/main/java/com/wofang/naliwan/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service/src/main/java/com/wofang/naliwan/config/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan-service/src/main/java/com/wofang/naliwan/service/impl/usi/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service/src/main/java/com/wofang/naliwan/service/impl/usi/UserInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan-service/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan2.iml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +47,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -49,6 +68,7 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectId" id="1U9B0ljRqIkDmhzIqOdDyO8Kwmc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -56,6 +76,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -128,17 +149,29 @@
       <workItem from="1574987048046" duration="1218000" />
       <workItem from="1575246860621" duration="13849000" />
     </task>
+    <task id="LOCAL-00001" summary="增加gitignore文件">
+      <created>1575354375767</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575354375767</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加gitignore文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加gitignore文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/naliwan-service/src/main/java/com/wofang/naliwan/ServiceApplication.java</url>
-          <line>18</line>
+          <line>20</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

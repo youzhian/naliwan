@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/naliwan2.iml" filepath="$PROJECT_DIR$/naliwan2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/naliwan-client/naliwanclient.iml" filepath="$PROJECT_DIR$/naliwan-client/naliwanclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/naliwan-eureka/naliwaneureka.iml" filepath="$PROJECT_DIR$/naliwan-eureka/naliwaneureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/naliwan-service/naliwanservice.iml" filepath="$PROJECT_DIR$/naliwan-service/naliwanservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/naliwan-service-api/naliwanserviceapi.iml" filepath="$PROJECT_DIR$/naliwan-service-api/naliwanserviceapi.iml" />
+    </modules>
+  </component>
+</project>

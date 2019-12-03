@@ -2,20 +2,20 @@ server:
   port: 8080
   servlet:
     context-path: /service
-#spring:
-#  application:
-#    name: naliwan-service
-#  datasource:
-#    driver-class-name: com.mysql.jdbc.Driver
-#    url: jdbc:mysql://106.14.120.172:3306/aimp?useUnicode=true&characterEncoding=utf8
-#    username: aimp
-#    password: Aimp@123
-#eureka:
-#  # 注册中心的地址
-#  hostname: 192.168.1.54
-#  # 注册中心的端口
-#  port: 8280
-#  client:
-#    serverUrl:
-#      defaultZone: http://${eureka.hostname}:${eureka.port}/eureka
+spring:
+  application:
+    name: naliwan-service
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://106.14.120.172:3306/aimp?useUnicode=true&characterEncoding=utf8
+    username: aimp
+    password: Aimp@123
+eureka:
+  # 注册中心的地址
+  hostname: 192.168.1.54
+  # 注册中心的端口
+  port: 8280
+  client:
+    serverUrl:
+      defaultZone: http://${eureka.hostname}:${eureka.port}/eureka
 

@@ -14,10 +14,11 @@ public class MybatisPlusConfig {
 
     /**
      * 配置分页插件
+     *
      * @return
      */
     //@Bean
-    public PaginationInterceptor PaginationInterceptor(){
+    public PaginationInterceptor PaginationInterceptor() {
         logger.debug("注册分页插件");
         return new PaginationInterceptor();
     }
