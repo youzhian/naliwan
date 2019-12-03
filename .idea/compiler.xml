@@ -7,11 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="naliwanclient" />
-        <module name="naliwaneureka" />
         <module name="naliwanservice" />
         <module name="naliwanserviceapi" />
+        <module name="naliwaneureka" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="naliwan2" target="1.8" />
+      <module name="naliwanwebservice" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

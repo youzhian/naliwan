@@ -2,21 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f07310ea-b020-48b4-879d-b010679923ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naliwan-service/src/main/java/com/wofang/naliwan/mapper/UserInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/naliwan-client/naliwanclient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-client/naliwanclient.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/naliwan-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/naliwan-eureka/src/main/java/com/eureka/EurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-eureka/src/main/java/com/eureka/EurekaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan-eureka/naliwaneureka.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/naliwan-service-api/naliwanserviceapi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service-api/naliwanserviceapi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/naliwan-service-api/src/main/java/com/wofang/naliwan/model/usi/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service-api/src/main/java/com/wofang/naliwan/model/usi/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/naliwan-service-api/src/main/java/com/wofang/naliwan/service/usi/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service-api/src/main/java/com/wofang/naliwan/service/usi/UserInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan-service/naliwanservice.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/naliwan-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/naliwan-service/src/main/java/com/wofang/naliwan/ServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service/src/main/java/com/wofang/naliwan/ServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/naliwan-service/src/main/java/com/wofang/naliwan/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service/src/main/java/com/wofang/naliwan/config/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan-service/src/main/java/com/wofang/naliwan/dao/UserInfoDao.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/naliwan-service/src/main/java/com/wofang/naliwan/service/impl/usi/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service/src/main/java/com/wofang/naliwan/service/impl/usi/UserInfoServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/naliwan-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/naliwan-service/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/naliwan2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan2.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +108,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.ServiceApplication">
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="naliwaneureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eureka.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="naliwanservice" />
       <extension name="coverage">
@@ -127,9 +139,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ServiceApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ServiceApplication" />
+        <item itemvalue="Spring Boot.EurekaApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -165,16 +182,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加gitignore文件" />
     <option name="LAST_COMMIT_MESSAGE" value="增加gitignore文件" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/naliwan-service/src/main/java/com/wofang/naliwan/ServiceApplication.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
