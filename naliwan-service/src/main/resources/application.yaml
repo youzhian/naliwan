@@ -1,7 +1,5 @@
 server:
   port: 8080
-  servlet:
-    context-path: /service
 spring:
   application:
     name: naliwan-service
@@ -12,9 +10,10 @@ spring:
     password: Aimp@123
 eureka:
   # 注册中心的地址
-  hostname: 192.168.1.87
+  hostname: localhost
   # 注册中心的端口
   port: 8280
   client:
-    service-url: http://${eureka.hostname}:${eureka.port}/eureka
+    service-url:
+      defaultZone: http://${eureka.hostname}:${eureka.port}/eureka
 

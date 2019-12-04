@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import com.wofang.naliwan.model.usi.UserInfo;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
@@ -13,9 +14,9 @@ import java.util.List;
  *
  * @author youzhian
  */
-@FeignClient(value = "naliwan-service")
+@FeignClient(name = "naliwan-service")
 public interface UserInfoService extends IService<UserInfo> {
 
-    @GetMapping("queryUserByName")
+    @RequestMapping("queryUserByName")
     public List<UserInfo> queryUserByName(@RequestParam("userName") String userName);
 }

@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f07310ea-b020-48b4-879d-b010679923ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/naliwan-service/src/main/java/com/wofang/naliwan/mapper/UserInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naliwan-client/src/main/java/com/wofang/naliwan/ClientApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/naliwan-client/naliwanclient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-client/naliwanclient.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/naliwan-eureka/naliwaneureka.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/naliwan-service-api/naliwanserviceapi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service-api/naliwanserviceapi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/naliwan-service/naliwanservice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/naliwan-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/naliwan-service/src/main/java/com/wofang/naliwan/ServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service/src/main/java/com/wofang/naliwan/ServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/naliwan-service/src/main/java/com/wofang/naliwan/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service/src/main/java/com/wofang/naliwan/config/MybatisPlusConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/naliwan-service/src/main/java/com/wofang/naliwan/dao/UserInfoDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/naliwan-service/src/main/java/com/wofang/naliwan/service/impl/usi/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service/src/main/java/com/wofang/naliwan/service/impl/usi/UserInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan-client/src/main/java/com/wofang/naliwan/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-client/src/main/java/com/wofang/naliwan/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan-client/src/main/java/com/wofang/naliwan/controller/usi/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-client/src/main/java/com/wofang/naliwan/controller/usi/UserInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan-client/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-client/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan-eureka/src/main/java/com/eureka/EurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-eureka/src/main/java/com/eureka/EurekaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan-service-api/src/main/java/com/wofang/naliwan/service/usi/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service-api/src/main/java/com/wofang/naliwan/service/usi/UserInfoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/naliwan-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,10 +78,11 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.13356462" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.wofang.naliwan" />
       <recent name="com.wofang.naliwan.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -108,7 +104,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ClientApplication">
+    <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="naliwanclient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wofang.naliwan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wofang.naliwan.ClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="naliwaneureka" />
       <extension name="coverage">
@@ -142,9 +151,11 @@
     <list>
       <item itemvalue="Spring Boot.ServiceApplication" />
       <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.ClientApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ClientApplication" />
         <item itemvalue="Spring Boot.ServiceApplication" />
         <item itemvalue="Spring Boot.EurekaApplication" />
       </list>

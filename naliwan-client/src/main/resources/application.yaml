@@ -3,6 +3,17 @@ server:
   servlet:
     context-path: /client
 spring:
+  application:
+    name: naliwan-client
   thymeleaf:
     prefix: /templates
     suffix: .html
+eureka:
+  hostname: localhost
+  port: 8280
+  client:
+    #作为消费者不提供服务
+    register-with-eureka: false
+    #    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.hostname}:${eureka.port}/eureka/
