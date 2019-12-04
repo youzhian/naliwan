@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="naliwan-eureka" />
+        <module name="naliwan-service" />
         <module name="naliwanclient" />
+        <module name="naliwan-client" />
         <module name="naliwanservice" />
+        <module name="naliwan-service-api" />
         <module name="naliwanserviceapi" />
         <module name="naliwaneureka" />
       </profile>
@@ -19,6 +23,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="naliwan-client" options="-parameters" />
+      <module name="naliwan-eureka" options="-parameters" />
+      <module name="naliwan-service" options="-parameters" />
+      <module name="naliwan-service-api" options="-parameters" />
       <module name="naliwan2" options="-parameters" />
       <module name="naliwanclient" options="-parameters" />
       <module name="naliwaneureka" options="-parameters" />
