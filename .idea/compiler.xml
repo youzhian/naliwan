@@ -6,24 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="naliwanclient" />
-        <module name="naliwanservice" />
-        <module name="naliwanserviceapi" />
-        <module name="naliwaneureka" />
+        <module name="naliwan-eureka" />
+        <module name="naliwan-service" />
+        <module name="naliwan-service-api" />
+        <module name="naliwan-client" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="naliwan2" target="1.8" />
-      <module name="naliwanwebservice" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="naliwan2" options="-parameters" />
-      <module name="naliwanclient" options="-parameters" />
-      <module name="naliwaneureka" options="-parameters" />
-      <module name="naliwanservice" options="-parameters" />
-      <module name="naliwanserviceapi" options="-parameters" />
+      <module name="naliwan-client" options="-parameters" />
+      <module name="naliwan-eureka" options="-parameters" />
+      <module name="naliwan-service" options="-parameters" />
+      <module name="naliwan-service-api" options="-parameters" />
     </option>
   </component>
 </project>
