@@ -22,7 +22,7 @@ public class UserInfoController extends BaseController {
     @RequestMapping("index")
     public ModelAndView index(){
         ModelAndView mv = new ModelAndView("/userinfo/userInfo");
-
+        userInfoService.queryUserByName("admin");
         return mv;
     }
 }
