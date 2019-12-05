@@ -24,6 +24,7 @@
         <mybatis-plus.version>3.2.0</mybatis-plus.version>
         <springcloud.version>Hoxton.RELEASE</springcloud.version>
         <spring-cloud-feign.version>1.4.7.RELEASE</spring-cloud-feign.version>
+        <spring-cloud-openfeign.version>2.2.0.RELEASE</spring-cloud-openfeign.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -53,8 +54,8 @@
             </dependency>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-starter-feign</artifactId>
-                <version>${spring-cloud-feign.version}</version>
+                <artifactId>spring-cloud-starter-openfeign</artifactId>
+                <version>${spring-cloud-openfeign.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

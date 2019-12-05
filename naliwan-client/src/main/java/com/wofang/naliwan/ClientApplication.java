@@ -10,8 +10,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 /**
  * @author 游志安
  */
-@EnableDiscoveryClient
 @EnableFeignClients
+@EnableDiscoveryClient
 @SpringBootApplication
 public class ClientApplication {
     /**

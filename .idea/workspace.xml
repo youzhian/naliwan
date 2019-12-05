@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f07310ea-b020-48b4-879d-b010679923ed" name="Default Changelist" comment="">
+    <list default="true" id="3ab6cab3-ecd9-4877-aba3-d0d117198877" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/naliwan-client/src/main/java/com/wofang/naliwan/controller/usi/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-client/src/main/java/com/wofang/naliwan/controller/usi/UserInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan-client/src/main/java/com/wofang/naliwan/ClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-client/src/main/java/com/wofang/naliwan/ClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan-client/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-client/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naliwan-service-api/src/main/java/com/wofang/naliwan/model/usi/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service-api/src/main/java/com/wofang/naliwan/model/usi/UserInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/naliwan-service-api/src/main/java/com/wofang/naliwan/service/usi/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service-api/src/main/java/com/wofang/naliwan/service/usi/UserInfoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/naliwan-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/naliwan-service/src/main/java/com/wofang/naliwan/ServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service/src/main/java/com/wofang/naliwan/ServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/naliwan-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/naliwan-service/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,7 +85,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.13356462" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -119,6 +121,10 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wofang.naliwan.ClientApplication" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,6 +138,10 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.eureka.EurekaApplication" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,10 +155,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wofang.naliwan.ServiceApplication" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ClientApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.ServiceApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ClientApplication" />
@@ -192,7 +211,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

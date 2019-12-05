@@ -1,13 +1,8 @@
 server:
   port: 8180
-  servlet:
-    context-path: /client
 spring:
   application:
     name: naliwan-client
-  thymeleaf:
-    prefix: /templates
-    suffix: .html
 eureka:
   hostname: localhost
   port: 8280

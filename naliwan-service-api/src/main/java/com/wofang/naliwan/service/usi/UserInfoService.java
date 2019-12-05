@@ -18,6 +18,6 @@ import java.util.List;
 @FeignClient(value = "naliwan-service")
 public interface UserInfoService{
 
-    @RequestMapping(name="queryUserByName",method = RequestMethod.GET)
+    @RequestMapping(value="/queryUserByName",method = RequestMethod.GET)
     public List<UserInfo> queryUserByName(@RequestParam("userName") String userName);
 }

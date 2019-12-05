@@ -8,30 +8,22 @@
         <outputRelativeToContentRoot value="true" />
         <module name="naliwan-eureka" />
         <module name="naliwan-service" />
-        <module name="naliwan-service-api" />
-        <module name="naliwan-client" />
-        <module name="naliwan-eureka" />
-        <module name="naliwan-service" />
         <module name="naliwanclient" />
         <module name="naliwan-client" />
         <module name="naliwanservice" />
         <module name="naliwan-service-api" />
-        <module name="naliwanserviceapi" />
         <module name="naliwaneureka" />
+        <module name="naliwanserviceapi" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="naliwan-client" options="-parameters" />
-      <module name="naliwan-eureka" options="-parameters" />
-      <module name="naliwan-service" options="-parameters" />
-      <module name="naliwan-service-api" options="-parameters" />
-      <module name="naliwan-client" options="-parameters" />
-      <module name="naliwan-eureka" options="-parameters" />
-      <module name="naliwan-service" options="-parameters" />
-      <module name="naliwan-service-api" options="-parameters" />
       <module name="naliwan" options="-parameters" />
+      <module name="naliwan-client" options="-parameters" />
+      <module name="naliwan-eureka" options="-parameters" />
+      <module name="naliwan-service" options="-parameters" />
+      <module name="naliwan-service-api" options="-parameters" />
       <module name="naliwanclient" options="-parameters" />
       <module name="naliwaneureka" options="-parameters" />
       <module name="naliwanservice" options="-parameters" />
